@@ -1,12 +1,12 @@
-Fitter Status : Successful - Thu Apr 13 10:58:24 2017
-Quartus II 64-Bit Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Fitter Status : Successful - Thu Apr 13 22:57:23 2017
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
 Revision Name : divider
 Top-level Entity Name : divider
 Family : Stratix II GX
 Device : EP2SGX130GF1508C3
 Timing Models : Final
 Logic utilization : < 1 %
-    Combinational ALUTs : 14 / 106,032 ( < 1 % )
+    Combinational ALUTs : 20 / 106,032 ( < 1 % )
     Dedicated logic registers : 8 / 106,032 ( < 1 % )
 Total registers : 8
 Total pins : 25 / 843 ( 3 % )

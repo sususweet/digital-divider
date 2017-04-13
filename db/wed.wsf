@@ -25,7 +25,7 @@ VECTOR("G:/quartus/divider.vwf")
 	ZOOM{
 		ZBEGIN = 0;
 		ZEND = 1000000000000;
-		NUMERATOR = 824;
+		NUMERATOR = 922;
 		DENOMINATOR = 1000000000000;
 		TOP_INDEX = 0;
 	}
@@ -126,7 +126,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pin_name12";
+		SIGNAL = "B41";
 		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
@@ -134,7 +134,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "pin_name13";
+		SIGNAL = "B31";
 		INDEX = 12;
 		FORMAT = E;
 		SCALE = 1;
@@ -142,7 +142,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "S4";
+		SIGNAL = "B21";
 		INDEX = 13;
 		FORMAT = E;
 		SCALE = 1;
@@ -150,7 +150,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "S3";
+		SIGNAL = "B11";
 		INDEX = 14;
 		FORMAT = E;
 		SCALE = 1;
@@ -158,7 +158,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "S2";
+		SIGNAL = "BI8";
 		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
@@ -166,7 +166,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "S1";
+		SIGNAL = "pin_name13";
 		INDEX = 16;
 		FORMAT = E;
 		SCALE = 1;
@@ -174,7 +174,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Y4";
+		SIGNAL = "S4";
 		INDEX = 17;
 		FORMAT = E;
 		SCALE = 1;
@@ -182,7 +182,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Y3";
+		SIGNAL = "S3";
 		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
@@ -190,7 +190,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Y2";
+		SIGNAL = "S2";
 		INDEX = 19;
 		FORMAT = E;
 		SCALE = 1;
@@ -198,7 +198,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Y1";
+		SIGNAL = "S1";
 		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
@@ -206,7 +206,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "S5";
+		SIGNAL = "Y4";
 		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
@@ -214,7 +214,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "S6";
+		SIGNAL = "Y3";
 		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
@@ -222,7 +222,7 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "S7";
+		SIGNAL = "Y2";
 		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
@@ -230,40 +230,8 @@ VECTOR("G:/quartus/divider.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "S8";
+		SIGNAL = "Y1";
 		INDEX = 24;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "S9";
-		INDEX = 25;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "S10";
-		INDEX = 26;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "S11";
-		INDEX = 27;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "S12";
-		INDEX = 28;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -276,9 +244,9 @@ VECTOR("G:/quartus/db/divider.sim.cvwf")
 	ZOOM{
 		ZBEGIN = 0;
 		ZEND = 1000000000000;
-		NUMERATOR = 756;
+		NUMERATOR = 787;
 		DENOMINATOR = 1000000000000;
-		TOP_INDEX = 7;
+		TOP_INDEX = 12;
 	}
 	CLOCK{
 		PERIOD = 10000000;

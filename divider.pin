@@ -74,7 +74,7 @@
  -- Pin directions (input, output or bidir) are based on device operating in user mode.
  ---------------------------------------------------------------------------------
 
-Quartus II 64-Bit Version 9.1 Build 222 10/21/2009 SJ Full Version
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Full Version
 CHIP  "divider"  ASSIGNED TO AN: EP2SGX130GF1508C3
 
 Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
@@ -137,21 +137,21 @@ GND                          : AA18      : gnd    :                   :         
 GND                          : AA22      : gnd    :                   :         :           :                
 VCCINT                       : AA23      : power  :                   : 1.2V    :           :                
 GND                          : AA24      : gnd    :                   :         :           :                
-GND*                         : AA25      :        :                   :         : 1         :                
-GND*                         : AA26      :        :                   :         : 1         :                
-GND*                         : AA27      :        :                   :         : 1         :                
+A2                           : AA25      : input  : 3.3-V LVTTL       :         : 1         : N              
+B41                          : AA26      : output : 3.3-V LVTTL       :         : 1         : N              
+B2                           : AA27      : input  : 3.3-V LVTTL       :         : 1         : N              
 VCCD_PLL2                    : AA28      : power  :                   : 1.2V    :           :                
 GNDA_PLL2                    : AA29      : gnd    :                   :         :           :                
 VCCIO1                       : AA30      : power  :                   : 3.3V    : 1         :                
-GND*                         : AA31      :        :                   :         : 1         :                
-GND*                         : AA32      :        :                   :         : 1         :                
+Y1                           : AA31      : output : 3.3-V LVTTL       :         : 1         : N              
+B21                          : AA32      : output : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : AA33      :        :                   :         : 1         :                
-GND*                         : AA34      :        :                   :         : 1         :                
-GND*                         : AA35      :        :                   :         : 1         :                
+Y2                           : AA34      : output : 3.3-V LVTTL       :         : 1         : N              
+A3                           : AA35      : input  : 3.3-V LVTTL       :         : 1         : N              
 VREFB1                       : AA36      : power  :                   :         : 1         :                
-GND*                         : AA37      :        :                   :         : 1         :                
-GND*                         : AA38      :        :                   :         : 1         :                
-GND*                         : AA39      :        :                   :         : 1         :                
+EN24                         : AA37      : input  : 3.3-V LVTTL       :         : 1         : N              
+clk                          : AA38      : input  : 3.3-V LVTTL       :         : 1         : N              
+A4                           : AA39      : input  : 3.3-V LVTTL       :         : 1         : N              
 GND                          : AB1       : gnd    :                   :         :           :                
 GND                          : AB2       : gnd    :                   :         :           :                
 GND                          : AB3       : gnd    :                   :         :           :                
@@ -176,21 +176,21 @@ GND                          : AB21      : gnd    :                   :         
 VCCINT                       : AB22      : power  :                   : 1.2V    :           :                
 GND                          : AB23      : gnd    :                   :         :           :                
 VCCINT                       : AB24      : power  :                   : 1.2V    :           :                
-GND*                         : AB25      :        :                   :         : 1         :                
+S2                           : AB25      : output : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : AB26      :        :                   :         : 1         :                
-GND*                         : AB27      :        :                   :         : 1         :                
+B4                           : AB27      : input  : 3.3-V LVTTL       :         : 1         : N              
 VCCPD1                       : AB28      : power  :                   : 3.3V    : 1         :                
 GND*                         : AB29      :        :                   :         : 1         :                
 GND*                         : AB30      :        :                   :         : 1         :                
 GND*                         : AB31      :        :                   :         : 1         :                
 GND*                         : AB32      :        :                   :         : 1         :                
 GND*                         : AB33      :        :                   :         : 1         :                
-GND*                         : AB34      :        :                   :         : 1         :                
+S4                           : AB34      : output : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : AB35      :        :                   :         : 1         :                
-GND*                         : AB36      :        :                   :         : 1         :                
-GND*                         : AB37      :        :                   :         : 1         :                
-GND*                         : AB38      :        :                   :         : 1         :                
-GND*                         : AB39      :        :                   :         : 1         :                
+EN                           : AB36      : input  : 3.3-V LVTTL       :         : 1         : N              
+S1                           : AB37      : output : 3.3-V LVTTL       :         : 1         : N              
+B11                          : AB38      : output : 3.3-V LVTTL       :         : 1         : N              
+A1                           : AB39      : input  : 3.3-V LVTTL       :         : 1         : N              
 GXB_VCC*                     : AC1       :        :                   : 1.2V    : 15        :                
 GND*                         : AC2       :        :                   :         : 15        :                
 GND                          : AC3       : gnd    :                   :         :           :                
@@ -215,7 +215,7 @@ VCCINT                       : AC21      : power  :                   : 1.2V    
 GND                          : AC22      : gnd    :                   :         :           :                
 VCCINT                       : AC23      : power  :                   : 1.2V    :           :                
 GND                          : AC24      : gnd    :                   :         :           :                
-GND*                         : AC25      :        :                   :         : 1         :                
+Y3                           : AC25      : output : 3.3-V LVTTL       :         : 1         : N              
 GND                          : AC26      : gnd    :                   :         :           :                
 GND*                         : AC27      :        :                   :         : 1         :                
 VCCPD1                       : AC28      : power  :                   : 3.3V    : 1         :                
@@ -767,7 +767,7 @@ GND*                         : AU27      :        :                   :         
 GND*                         : AU28      :        :                   :         : 8         :                
 GND*                         : AU29      :        :                   :         : 8         :                
 GND*                         : AU30      :        :                   :         : 8         :                
-S4                           : AU31      : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : AU31      :        :                   :         : 8         :                
 GND*                         : AU32      :        :                   :         : 8         :                
 GND*                         : AU33      :        :                   :         : 8         :                
 GND*                         : AU34      :        :                   :         : 8         :                
@@ -967,7 +967,7 @@ nCE                          : D34       :        :                   :         
 CONF_DONE                    : D35       :        :                   :         : 3         :                
 GND*                         : D36       :        :                   :         : 2         :                
 GND*                         : D37       :        :                   :         : 2         :                
-B31                          : D38       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : D38       :        :                   :         : 2         :                
 GND*                         : D39       :        :                   :         : 2         :                
 GXB_VCC*                     : E1        :        :                   : 1.2V    : 13        :                
 GND*                         : E2        :        :                   :         : 13        :                
@@ -1004,10 +1004,10 @@ GND                          : E32       : gnd    :                   :         
 GND*                         : E33       :        :                   :         : 3         :                
 GND*                         : E34       :        :                   :         : 3         :                
 GND                          : E35       : gnd    :                   :         :           :                
-Y4                           : E36       : output : 3.3-V LVTTL       :         : 2         : N              
-B1                           : E37       : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : E36       :        :                   :         : 2         :                
+GND*                         : E37       :        :                   :         : 2         :                
 GND                          : E38       : gnd    :                   :         :           :                
-B3                           : E39       : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : E39       :        :                   :         : 2         :                
 GND                          : F1        : gnd    :                   :         :           :                
 GND                          : F2        : gnd    :                   :         :           :                
 GND                          : F3        : gnd    :                   :         :           :                
@@ -1035,18 +1035,18 @@ GND*                         : F24       :        :                   :         
 GND*                         : F25       :        :                   :         : 3         :                
 GND*                         : F26       :        :                   :         : 3         :                
 GND*                         : F27       :        :                   :         : 3         :                
-S1                           : F28       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : F28       :        :                   :         : 3         :                
 GND*                         : F29       :        :                   :         : 3         :                
 GND*                         : F30       :        :                   :         : 3         :                
 GND*                         : F31       :        :                   :         : 3         :                
 GND*                         : F32       :        :                   :         : 3         :                
-EN                           : F33       : input  : 3.3-V LVTTL       :         : 2         : N              
-A2                           : F34       : input  : 3.3-V LVTTL       :         : 2         : N              
-B11                          : F35       : output : 3.3-V LVTTL       :         : 2         : N              
-S3                           : F36       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : F33       :        :                   :         : 2         :                
+GND*                         : F34       :        :                   :         : 2         :                
+GND*                         : F35       :        :                   :         : 2         :                
+GND*                         : F36       :        :                   :         : 2         :                
 GND*                         : F37       :        :                   :         : 2         :                
-Y1                           : F38       : output : 3.3-V LVTTL       :         : 2         : N              
-B4                           : F39       : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : F38       :        :                   :         : 2         :                
+GND*                         : F39       :        :                   :         : 2         :                
 GXB_VCC*                     : G1        :        :                   : 1.2V    : 13        :                
 GND*                         : G2        :        :                   :         : 13        :                
 GND                          : G3        : gnd    :                   :         :           :                
@@ -1081,7 +1081,7 @@ GND*                         : G31       :        :                   :         
 GND*                         : G32       :        :                   :         : 2         :                
 GND*                         : G33       :        :                   :         : 2         :                
 GND*                         : G34       :        :                   :         : 2         :                
-Y2                           : G35       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : G35       :        :                   :         : 2         :                
 VREFB2                       : G36       : power  :                   :         : 2         :                
 GND*                         : G37       :        :                   :         : 2         :                
 GND*                         : G38       :        :                   :         : 2         :                
@@ -1190,16 +1190,16 @@ VCCIO3                       : K23       : power  :                   : 3.3V    
 GND*                         : K24       :        :                   :         : 3         :                
 GND*                         : K25       :        :                   :         : 3         :                
 VCCIO3                       : K26       : power  :                   : 3.3V    : 3         :                
-S2                           : K27       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : K27       :        :                   :         : 3         :                
 GNDA_PLL7                    : K28       : gnd    :                   :         :           :                
 GNDA_PLL7                    : K29       : gnd    :                   :         :           :                
 GND*                         : K30       :        :                   :         : 2         :                
-Y3                           : K31       : output : 3.3-V LVTTL       :         : 2         : N              
-A4                           : K32       : input  : 3.3-V LVTTL       :         : 2         : N              
-A1                           : K33       : input  : 3.3-V LVTTL       :         : 2         : N              
-BI8                          : K34       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : K31       :        :                   :         : 2         :                
+GND*                         : K32       :        :                   :         : 2         :                
+GND*                         : K33       :        :                   :         : 2         :                
+GND*                         : K34       :        :                   :         : 2         :                
 GND*                         : K35       :        :                   :         : 2         :                
-B41                          : K36       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : K36       :        :                   :         : 2         :                
 GND*                         : K37       :        :                   :         : 2         :                
 GND*                         : K38       :        :                   :         : 2         :                
 GND*                         : K39       :        :                   :         : 2         :                
@@ -1232,11 +1232,11 @@ GND                          : L26       : gnd    :                   :         
 GND*                         : L27       :        :                   :         : 3         :                
 VCCD_PLL7                    : L28       : power  :                   : 1.2V    :           :                
 GND                          : L29       : gnd    :                   :         :           :                
-B2                           : L30       : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : L30       :        :                   :         : 2         :                
 GND*                         : L31       :        :                   :         : 2         :                
 GND                          : L32       : gnd    :                   :         :           :                
-clk                          : L33       : input  : 3.3-V LVTTL       :         : 2         : N              
-B21                          : L34       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : L33       :        :                   :         : 2         :                
+GND*                         : L34       :        :                   :         : 2         :                
 GND                          : L35       : gnd    :                   :         :           :                
 GND*                         : L36       :        :                   :         : 2         :                
 GND*                         : L37       :        :                   :         : 2         :                
@@ -1270,8 +1270,8 @@ GND*                         : M25       :        :                   :         
 GND*                         : M26       :        :                   :         : 3         :                
 GND*                         : M27       :        :                   :         : 3         :                
 GND*                         : M28       :        :                   :         : 3         :                
-A3                           : M29       : input  : 3.3-V LVTTL       :         : 2         : N              
-EN24                         : M30       : input  : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : M29       :        :                   :         : 2         :                
+GND*                         : M30       :        :                   :         : 2         :                
 GND*                         : M31       :        :                   :         : 2         :                
 GND*                         : M32       :        :                   :         : 2         :                
 GND*                         : M33       :        :                   :         : 2         :                
@@ -1424,7 +1424,7 @@ VCCINT                       : T23       : power  :                   : 1.2V    
 GND*                         : T24       :        :                   :         : 2         :                
 GND*                         : T25       :        :                   :         : 2         :                
 GND*                         : T26       :        :                   :         : 2         :                
-pin_name13                   : T27       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : T27       :        :                   :         : 2         :                
 VCCPD2                       : T28       : power  :                   : 3.3V    : 2         :                
 GND*                         : T29       :        :                   :         : 2         :                
 GND*                         : T30       :        :                   :         : 2         :                
@@ -1572,18 +1572,18 @@ VCCINT                       : Y18       : power  :                   : 1.2V    
 VCCINT                       : Y22       : power  :                   : 1.2V    :           :                
 GND                          : Y23       : gnd    :                   :         :           :                
 VCCINT                       : Y24       : power  :                   : 1.2V    :           :                
-GND*                         : Y25       :        :                   :         : 1         :                
+Y4                           : Y25       : output : 3.3-V LVTTL       :         : 1         : N              
 GND                          : Y26       : gnd    :                   :         :           :                
-GND*                         : Y27       :        :                   :         : 1         :                
+B31                          : Y27       : output : 3.3-V LVTTL       :         : 1         : N              
 GNDA_PLL2                    : Y28       : gnd    :                   :         :           :                
 GND                          : Y29       : gnd    :                   :         :           :                
 VCCA_PLL2                    : Y30       : power  :                   : 1.2V    :           :                
 GND*                         : Y31       :        :                   :         : 2         :                
 GND                          : Y32       : gnd    :                   :         :           :                
-GND*                         : Y33       :        :                   :         : 1         :                
-GND*                         : Y34       :        :                   :         : 1         :                
+B1                           : Y33       : input  : 3.3-V LVTTL       :         : 1         : N              
+BI8                          : Y34       : output : 3.3-V LVTTL       :         : 1         : N              
 GND                          : Y35       : gnd    :                   :         :           :                
-GND*                         : Y36       :        :                   :         : 1         :                
-GND*                         : Y37       :        :                   :         : 1         :                
+pin_name13                   : Y36       : output : 3.3-V LVTTL       :         : 1         : N              
+S3                           : Y37       : output : 3.3-V LVTTL       :         : 1         : N              
 GND                          : Y38       : gnd    :                   :         :           :                
-GND*                         : Y39       :        :                   :         : 1         :                
+B3                           : Y39       : input  : 3.3-V LVTTL       :         : 1         : N              
