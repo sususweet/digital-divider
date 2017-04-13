@@ -1,5 +1,5 @@
 Analysis & Synthesis report for divider
-Sun Apr 09 17:55:12 2017
+Thu Apr 13 10:58:03 2017
 Quartus II 64-Bit Version 9.1 Build 222 10/21/2009 SJ Full Version
 
 
@@ -43,16 +43,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +--------------------------------+------------------------------------------+
-; Analysis & Synthesis Status    ; Successful - Sun Apr 09 17:55:12 2017    ;
+; Analysis & Synthesis Status    ; Successful - Thu Apr 13 10:58:03 2017    ;
 ; Quartus II 64-Bit Version      ; 9.1 Build 222 10/21/2009 SJ Full Version ;
 ; Revision Name                  ; divider                                  ;
 ; Top-level Entity Name          ; divider                                  ;
 ; Family                         ; Stratix II GX                            ;
 ; Logic utilization              ; N/A                                      ;
-;     Combinational ALUTs        ; 17                                       ;
+;     Combinational ALUTs        ; 14                                       ;
 ;     Dedicated logic registers  ; 8                                        ;
 ; Total registers                ; 8                                        ;
-; Total pins                     ; 22                                       ;
+; Total pins                     ; 25                                       ;
 ; Total virtual pins             ; 0                                        ;
 ; Total block memory bits        ; 0                                        ;
 ; DSP block 9-bit elements       ; 0                                        ;
@@ -169,9 +169,9 @@ applicable agreement for further details.
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                              ;
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+
 ; divider.bdf                      ; yes             ; User Block Diagram/Schematic File  ; G:/quartus/divider.bdf                                    ;
+; 74175.bdf                        ; yes             ; Megafunction                       ; e:/altera/91/quartus/libraries/others/maxplus2/74175.bdf  ;
 ; 74283.tdf                        ; yes             ; Megafunction                       ; e:/altera/91/quartus/libraries/others/maxplus2/74283.tdf  ;
 ; f74283.bdf                       ; yes             ; Megafunction                       ; e:/altera/91/quartus/libraries/others/maxplus2/f74283.bdf ;
-; 74175.bdf                        ; yes             ; Megafunction                       ; e:/altera/91/quartus/libraries/others/maxplus2/74175.bdf  ;
 ; 74161.tdf                        ; yes             ; Megafunction                       ; e:/altera/91/quartus/libraries/others/maxplus2/74161.tdf  ;
 ; f74161.bdf                       ; yes             ; Megafunction                       ; e:/altera/91/quartus/libraries/others/maxplus2/f74161.bdf ;
 +----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+
@@ -182,38 +182,38 @@ applicable agreement for further details.
 +-----------------------------------------------+--------+
 ; Resource                                      ; Usage  ;
 +-----------------------------------------------+--------+
-; Estimated ALUTs Used                          ; 17     ;
+; Estimated ALUTs Used                          ; 14     ;
 ; Dedicated logic registers                     ; 8      ;
 ;                                               ;        ;
-; Estimated ALUTs Unavailable                   ; 4      ;
+; Estimated ALUTs Unavailable                   ; 2      ;
 ;                                               ;        ;
-; Total combinational functions                 ; 17     ;
+; Total combinational functions                 ; 14     ;
 ; Combinational ALUT usage by number of inputs  ;        ;
 ;     -- 7 input functions                      ; 0      ;
-;     -- 6 input functions                      ; 4      ;
-;     -- 5 input functions                      ; 2      ;
-;     -- 4 input functions                      ; 4      ;
-;     -- <=3 input functions                    ; 7      ;
+;     -- 6 input functions                      ; 2      ;
+;     -- 5 input functions                      ; 3      ;
+;     -- 4 input functions                      ; 5      ;
+;     -- <=3 input functions                    ; 4      ;
 ;                                               ;        ;
 ; Combinational ALUTs by mode                   ;        ;
-;     -- normal mode                            ; 17     ;
+;     -- normal mode                            ; 14     ;
 ;     -- extended LUT mode                      ; 0      ;
 ;     -- arithmetic mode                        ; 0      ;
 ;     -- shared arithmetic mode                 ; 0      ;
 ;                                               ;        ;
-; Estimated ALUT/register pairs used            ; 21     ;
+; Estimated ALUT/register pairs used            ; 16     ;
 ;                                               ;        ;
 ; Total registers                               ; 8      ;
 ;     -- Dedicated logic registers              ; 8      ;
 ;     -- I/O registers                          ; 0      ;
 ;                                               ;        ;
-; Estimated ALMs:  partially or completely used ; 11     ;
+; Estimated ALMs:  partially or completely used ; 8      ;
 ;                                               ;        ;
-; I/O pins                                      ; 22     ;
+; I/O pins                                      ; 25     ;
 ; Maximum fan-out node                          ; inst13 ;
 ; Maximum fan-out                               ; 9      ;
-; Total fan-out                                 ; 94     ;
-; Average fan-out                               ; 2.00   ;
+; Total fan-out                                 ; 86     ;
+; Average fan-out                               ; 1.83   ;
 +-----------------------------------------------+--------+
 
 
@@ -222,12 +222,12 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name              ; Library Name ;
 +----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------+--------------+
-; |divider                   ; 17 (8)            ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 22   ; 0            ; |divider                         ; work         ;
+; |divider                   ; 14 (6)            ; 8 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 25   ; 0            ; |divider                         ; work         ;
 ;    |74161:inst2|           ; 3 (0)             ; 4 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |divider|74161:inst2             ; work         ;
 ;       |f74161:sub|         ; 3 (3)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |divider|74161:inst2|f74161:sub  ; work         ;
-;    |74175:inst|            ; 0 (0)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |divider|74175:inst              ; work         ;
-;    |74283:inst1|           ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |divider|74283:inst1             ;              ;
-;       |f74283:sub|         ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |divider|74283:inst1|f74283:sub  ; work         ;
+;    |74175:inst|            ; 0 (0)             ; 4 (4)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |divider|74175:inst              ;              ;
+;    |74283:inst1|           ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |divider|74283:inst1             ; work         ;
+;       |f74283:sub|         ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |divider|74283:inst1|f74283:sub  ; work         ;
 ;    |74283:inst26|          ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |divider|74283:inst26            ; work         ;
 ;       |f74283:sub|         ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |divider|74283:inst26|f74283:sub ; work         ;
 +----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+----------------------------------+--------------+
@@ -297,7 +297,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Full Version
-    Info: Processing started: Sun Apr 09 17:55:11 2017
+    Info: Processing started: Thu Apr 13 10:58:02 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off divider -c divider
 Info: Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info: Found 1 design units, including 1 entities, in source file divider.bdf
@@ -310,12 +310,12 @@ Warning: Block or symbol "74175" of instance "inst" overlaps another block or sy
 Warning: Block or symbol "AND2" of instance "inst13" overlaps another block or symbol
 Warning: Block or symbol "AND2" of instance "inst19" overlaps another block or symbol
 Warning: Block or symbol "NOT" of instance "inst11" overlaps another block or symbol
+Info: Elaborating entity "74175" for hierarchy "74175:inst"
+Info: Elaborated megafunction instantiation "74175:inst"
 Info: Elaborating entity "74283" for hierarchy "74283:inst1"
 Info: Elaborated megafunction instantiation "74283:inst1"
 Info: Elaborating entity "f74283" for hierarchy "74283:inst1|f74283:sub"
 Info: Elaborated megafunction instantiation "74283:inst1|f74283:sub", which is child of megafunction instantiation "74283:inst1"
-Info: Elaborating entity "74175" for hierarchy "74175:inst"
-Info: Elaborated megafunction instantiation "74175:inst"
 Info: Elaborating entity "74283" for hierarchy "74283:inst26"
 Info: Elaborated megafunction instantiation "74283:inst26"
 Info: Elaborating entity "74161" for hierarchy "74161:inst2"
@@ -331,16 +331,15 @@ Warning: Tri-state node(s) do not directly drive top-level pin(s)
     Warning: Converted tri-state node feeding "74175:inst|16" into a selector
     Warning: Converted tri-state node feeding "74175:inst|13" into a selector
 Warning: Always-enabled tri-state buffer(s) removed
-    Warning: Converted the fanout from the always-enabled tri-state buffer "inst24" to the node "S8" into a wire
-Warning: Tri-state node(s) do not directly drive top-level pin(s)
-    Warning: Converted the fan-out from the tri-state buffer "inst24" to the node "inst13" into an OR gate
+    Warning: Converted the fanout from the always-enabled tri-state buffer "inst24" to the node "BI8" into a wire
+    Warning: Converted the fanout from the always-enabled tri-state buffer "inst24" to the node "inst13" into a wire
 Info: Implemented 40 device resources after synthesis - the final resource count might be different
     Info: Implemented 11 input pins
-    Info: Implemented 11 output pins
-    Info: Implemented 18 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 14 warnings
+    Info: Implemented 14 output pins
+    Info: Implemented 15 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 13 warnings
     Info: Peak virtual memory: 309 megabytes
-    Info: Processing ended: Sun Apr 09 17:55:12 2017
+    Info: Processing ended: Thu Apr 13 10:58:03 2017
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
