@@ -1,5 +1,5 @@
 Assembler report for divider
-Thu Apr 13 22:57:34 2017
+Fri Apr 14 12:15:16 2017
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Full Version
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Apr 13 22:57:34 2017 ;
+; Assembler Status      ; Successful - Fri Apr 14 12:15:16 2017 ;
 ; Revision Name         ; divider                               ;
 ; Top-level Entity Name ; divider                               ;
 ; Family                ; Stratix II GX                         ;
@@ -94,7 +94,7 @@ applicable agreement for further details.
 +----------------+---------------------------------+
 ; Device         ; EP2SGX130GF1508C3               ;
 ; JTAG usercode  ; 0xFFFFFFFF                      ;
-; Checksum       ; 0x0117E152                      ;
+; Checksum       ; 0x0117F624                      ;
 +----------------+---------------------------------+
 
 
@@ -105,7 +105,7 @@ applicable agreement for further details.
 +--------------------+-----------------------------+
 ; Device             ; EPC16                       ;
 ; JTAG usercode      ; 0xFFFFFFFF                  ;
-; Checksum           ; 0x199F087B                  ;
+; Checksum           ; 0x199F426E                  ;
 ; Compression Ratio  ; 3                           ;
 +--------------------+-----------------------------+
 
@@ -116,14 +116,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.1 Build 222 10/21/2009 SJ Full Version
-    Info: Processing started: Thu Apr 13 22:57:24 2017
+    Info: Processing started: Fri Apr 14 12:15:05 2017
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off divider -c divider
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 532 megabytes
-    Info: Processing ended: Thu Apr 13 22:57:34 2017
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Processing ended: Fri Apr 14 12:15:16 2017
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:11
 
 
